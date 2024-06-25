@@ -131,10 +131,22 @@ const Container = styled.div`
     padding-bottom: 30px;
     width: 100%;
     .uperPart {
-      gap: 10px;
+      gap: 40px;
     }
     h5 {
       margin-top: 0;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .upperPart {
+      mrgin-right: 20px;
+    }
+    .lowerPart {
+      margin-top: 20px;
+    }
+    .error {
+      margin-top: 25px;
     }
   }
 `;
