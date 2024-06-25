@@ -13,6 +13,7 @@ function Rolldice({ current, RollDice }) {
 
 export default Rolldice;
 const ImageBox = styled.div`
+  margin-right: 20px;
   img {
     height: 110px;
     width: 110px;
@@ -23,5 +24,8 @@ const ImageBox = styled.div`
       height: 80px;
       width: 80px;
     }
+  }
+  @media (max-width: 400px) {
+    margin-right: 0px;
   }
 `;
